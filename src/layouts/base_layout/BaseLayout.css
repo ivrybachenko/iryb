@@ -1,0 +1,20 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.layout-top {
+    padding: 1em;
+    background-color: darkolivegreen;
+}
+
+.layout-center {
+    flex-grow: 1;
+}
+
+.layout-bottom {
+    background-color: darkolivegreen;
+}

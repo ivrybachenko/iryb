@@ -1,0 +1,30 @@
+.url {
+    border-top: 1px solid var(--color-light);
+    border-bottom: 1px solid var(--color-light);
+}
+.url-label {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    font-weight: bold;
+}
+.url-copy {
+    background-color: var(--color-accent-dark);
+    border-left: 1px solid var(--color-light);
+    border-right: 1px solid var(--color-light);
+    color: var(--color-light);
+    cursor: pointer;
+}
+.url-copy:hover {
+    background-color: var(--color-accent-light);
+}
+.link {
+    color: var(--color-light);
+    border-bottom: 1px solid var(--color-accent-light);
+}
+.link:hover {
+    color: var(--color-accent-light);
+    text-decoration: none;
+}
+.separator {
+    border-top: 1px solid var(--color-light);
+}
